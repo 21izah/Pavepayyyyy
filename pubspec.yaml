@@ -1,0 +1,235 @@
+name: pave_day
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  clipboard: ^0.1.3
+
+  page_transition: ^2.0.9
+
+  provider: ^6.0.5
+
+  flutter_carousel_slider: ^1.0.8
+  liquid_pull_to_refresh: ^3.0.0
+  smooth_page_indicator: ^1.0.0+2
+  url_launcher: ^6.1.6
+
+  shared_preferences: ^2.1.2
+
+  flutter_tawk: ^0.1.0
+  webview_flutter: ^3.0.4
+
+  animated_text_kit: ^4.2.2
+  animated_splash_screen: ^1.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  lottie: ^2.0.0
+
+  path_provider: ^2.0.11
+  liquid_swipe: ^3.0.0
+  get: ^4.6.5
+
+  http: ^0.13.5
+
+  font_awesome_flutter: ^10.3.0
+  hidden_drawer_menu: ^3.0.1
+
+  json_annotation: ^4.8.0
+  gsheets: ^0.4.2
+  flutter_flushbar: ^0.0.2
+
+  slide_to_act_reborn: ^3.0.0
+  community_material_icon: ^5.9.55
+  # font_awesome_flutter: ^10.5.0
+
+  # slide_to_act: ^2.0.1
+
+  flutter_animate: ^4.1.1+1
+  google_nav_bar: ^5.0.6
+  eva_icons_flutter: ^3.1.0
+  unicons: ^2.1.1
+  simple_snackbar: ^1.0.2
+  country_picker: ^2.0.20
+  dropdown_button2: ^2.0.0
+  animated_snack_bar: ^0.3.1
+  onesignal_flutter: ^5.0.0
+
+  flutter_slidable: ^3.0.0
+
+  flutter_speed_dial: ^7.0.0
+
+  flutter_countdown_timer: ^4.1.0
+
+  share_plus: ^7.0.2
+  cool_dropdown: ^2.1.0
+  shimmer: ^3.0.0
+  observe_internet_connectivity: ^1.0.2
+  contacts_service: ^0.6.3
+  # permission_handler: ^11.1.0
+  flutter_screenutil: ^5.9.0
+  flutter_contacts: ^1.1.7+1
+
+  # flutter_native_splash: ^2.2.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
+  flutter_launcher_icons: ^0.11.0
+
+  flutter_native_splash: ^2.2.14
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/pwave_prev_ui.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter_native_splash:
+  color: "#000000"
+  image: lib/assets/pwave_prev_ui.png
+
+android_12:
+  color: "#000000"
+  image: lib/assets/pwave_prev_ui.png
+  icon_background_color: "#000000"
+  image_dark: lib/assets/pwave_prev_ui.png
+  color_dark: "#000000"
+  icon_background_color_dark: "#000000"
+  image_android: lib/assets/pwave_prev_ui.png
+  image_dark_android: lib/assets/pwave_prev_ui.png
+  color_android: "#000000"
+  color_dark_android: "#000000"
+  branding: lib/assets/pwave_prev_ui.png
+  branding_android: lib/assets/pwave_prev_ui.png
+  branding_dark_android: lib/assets/pwave_prev_ui.png
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/pwave.jpg
+    - lib/assets/pwave_prev_ui.png
+    - lib/assets/warning.png
+    - lib/assets/success.png
+    - lib/assets/smile_network.jpeg
+    - lib/assets/mtn.png
+    - lib/assets/airtel.png
+    - lib/assets/9mobile.png
+    - lib/assets/glo.jpeg
+    - lib/assets/dstv.jpeg
+    - lib/assets/cash-withdrawal.png
+    - lib/assets/data-transfer.png
+    - lib/assets/football.png
+    - lib/assets/idea.png
+    - lib/assets/internet(1).png
+    - lib/assets/light-bulb.png
+    - lib/assets/man.png
+    - lib/assets/man(1).png
+    - lib/assets/notification.png
+    - lib/assets/notification(1).png
+    - lib/assets/profile.png
+    - lib/assets/profile(1).png
+    - lib/assets/qr-code(2).png
+    - lib/assets/soccer.png
+    - lib/assets/transaction.png
+    - lib/assets/transfer.png
+    - lib/assets/tv.png
+    - lib/assets/video.png
+    - lib/assets/wifi.png
+    - lib/assets/withdraw.png
+    - lib/assets/withdraw(1).png
+    - lib/assets/customer-service.png
+    - lib/assets/customer-service(1).png
+    - lib/assets/customer-service(2).png
+    - lib/assets/customer-support.png
+    - lib/assets/contacts.png
+    - lib/assets/3d-contact.png
+    - lib/assets/phone-book.png
+    - lib/assets/add.png
+    - lib/assets/image-gallery.png
+    - lib/assets/down(1).png
+    - lib/assets/down.png
+    - lib/assets/down-arrow.png
+    - lib/assets/arrow-down.png
+    - lib/assets/Animation - 1701449870686.json
+    - lib/assets/Animation - 1701449557293.json
+    - lib/assets/Animation - 1701449377049.json
+    - lib/assets/Animation - 1701448815228.json
+    # - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
